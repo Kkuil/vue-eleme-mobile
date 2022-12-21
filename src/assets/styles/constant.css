@@ -1,0 +1,8 @@
+* {
+  --pri_clr: #3190e8;
+}
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

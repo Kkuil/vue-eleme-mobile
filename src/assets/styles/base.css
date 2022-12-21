@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* firefox */
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+.el-rate {
+  --el-rate-fill-color: #ff9a0d !important;
+}
+.el-rate .el-rate__icon {
+  margin: 0 !important;
+}
+body {
+  background-color: #f5f5f5;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+input {
+  outline: none;
+  padding-left: 5px;
+  font-size: 1rem;
+}
+button {
+  border: 0;
+}
+select {
+  border: 0;
+  appearance: none;
+  outline: none;
+  text-align: center;
+  font-weight: bolder;
+}
+select option {
+  border: 0;
+  outline: none;
+  padding: 5px;
+}
